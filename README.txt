@@ -1,0 +1,1 @@
+Har försökt att göra så mycket som möjligt men kunde inte mycket om databaser så hann inte fixa det i tid
