@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <title> Julklappar </title>
+<style>
+  *{
+    margin:0;
+    padding:0;
+    text-align: center;
+    color: black;
+  }
+body{
+  background-image: url(https://wallpaperset.com/w/full/7/6/6/139970.jpg);
+}
+#Header{
+  margin-bottom: 10px;
+  width: 100%;
+  height: 20vh;
+  background-color: Orangered;
+}
+#player{
+  float: left;
+}
+#Box1{
+  margin: auto;
+  padding: 10px;
+  width: 70%;
+  height: 70vh;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: DeepSkyBlue;
+}
+
+#sidemenu{
+  width: 10vw;
+  height: 70vh;
+  background-color: DeepSkyBlue;
+  float: left;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#sidemenu a{
+  width: 100px;
+  text-decoration: none;
+  background-color: red;
+  padding: 20px;
+  display: block;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+#sidemenu a:hover{
+  background-color: #d9d9d9;
+  opacity: 0.85;
+}
+
+li{
+  margin: 20px;
+}
+
+#Footer{
+  margin-top: 10px;
+  width:100%;
+  height:6vh;
+  background-color: DarkSlateGrey;
+}
+</style>
+
+<script src="snowstorm.js">
+</script>
+
+</head>
+<body>
+  <div id="Header"> <id="Timer">
+    <img src = "https://4.bp.blogspot.com/-8eLZ5pFWfjA/WFvEw9uPP5I/AAAAAAAABj4/WXWMQk3Vvs8p5uOFhstkYZ4ngA-3bJ-DQCLcB/s1600/god-jul.gif">
+
+    <audio id="player" controls autoplay loop>
+    <source src="julmusik.mp3" type="audio/ogg">
+    <embed src="julmusik.mp3" autostart="true" loop="true" hidden="true">
+    </audio>
+  </div>
+
+  <div id="sidemenu">
+    <a href="index.html"> Hem </a>
+    <a href="julklappar.html"> Julklappar </a>
+    <a href="Info.html"> Info </a>
+  </div>
+
+<div id="Box1">
+  <h1> Årets Julklappar </h1>
+  <ul style="font-size: 20px">
+    <li>Årets Julklapp 2019: Mobillådan</li>
+    <li>Årets julklapp 2018: Återvunna kläder</li>
+    <li>Årets julklapp 2017: Elcykeln</li>
+    <li>Årets julklapp 2016: VR-glasögonen</li>
+    <li>Årets julklapp 2015: Robotdammsugaren</li>
+    <li>Årets julklapp 2014: Träningsarmbandet</li>
+    <li>Årets julklapp 2013: Råsaftcentrifugen</li>
+    <li>Årets julklapp 2012: Hörlurar</li>
+    <li>Årets julklapp 2011: Matkassen</li>
+    <li>Årets julklapp 2010: Surfplattan</li>
+    <li>Årets julklapp 2009: Spikmatta</li>
+    </ul>
+</div>
+
+<div id="Footer">
+  <h1></h1>
+</div>
+
+</body>
+</html>
